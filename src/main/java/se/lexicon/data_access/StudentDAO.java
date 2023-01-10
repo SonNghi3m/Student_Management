@@ -1,2 +1,13 @@
-package se.lexicon.data_access;public interface StudentDAO {
+package se.lexicon.data_access;
+
+import se.lexicon.exceptions.DataNotFoundException;
+import se.lexicon.models.Student;
+
+import java.util.List;
+
+public interface StudentDAO {
+    Student save (Student student);
+    Student find (Integer id);
+    List<Student> findAll();
+    void delete (int id) throws DataNotFoundException;
 }
