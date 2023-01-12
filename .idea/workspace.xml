@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58eed45e-2174-4538-9504-ece506b493f8" name="Changes" comment="part 1 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ScannerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/util/ScannerInputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/util/UserInputService.java" afterDir="false" />
+    <list default="true" id="58eed45e-2174-4538-9504-ece506b493f8" name="Changes" comment="part 2 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/service/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/service/StudentManagementConsoleImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ComponentScanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ComponentScanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/config/ScannerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAOListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data_access/StudentDAOListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/util/ScannerInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/util/ScannerInputService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673354914945</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part 2 completed">
+      <created>1673388830316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673388830316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 1 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 1 completed" />
+    <MESSAGE value="part 2 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2 completed" />
   </component>
 </project>

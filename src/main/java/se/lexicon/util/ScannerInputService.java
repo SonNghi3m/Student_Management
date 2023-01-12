@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
-
 @Component
 public class ScannerInputService implements UserInputService{
 
@@ -17,11 +16,13 @@ public class ScannerInputService implements UserInputService{
 
     @Override
     public String getString() {
-        return null;
+        System.out.println("Enter student's name:");
+        return scanner.nextLine();
     }
 
     @Override
     public int getInt() {
-        return 0;
+        System.out.println("Enter student's ID:");
+        return Integer.parseInt(scanner.nextLine());
     }
 }

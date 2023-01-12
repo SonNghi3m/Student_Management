@@ -10,6 +10,11 @@ public class Student {
         this.name = name;
     }
 
+    public Student(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

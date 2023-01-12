@@ -9,5 +9,5 @@ public interface StudentDAO {
     Student save (Student student);
     Student find (Integer id);
     List<Student> findAll();
-    void delete (int id) throws DataNotFoundException;
+    void delete (Integer id) throws DataNotFoundException;
 }
